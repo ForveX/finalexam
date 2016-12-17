@@ -49,15 +49,15 @@
   margin: 0 auto;
   overflow: hidden; }
 
-.region__title {
+.slider__section__name {
   color: #333;
   font-size: 22px;
   text-align: center; }
 
-.step {
+.slider {
   margin-top: 25px; }
   @media (min-width: 640px) {
-    .step {
+    .slider {
       margin-top: 84px; } }
 
 .pic {

@@ -55,14 +55,14 @@
 
 }
 
-.region__title {
+.slider__section__name {
   color: $c-4;
   font-size: $fs-2;
   text-align: center;
 // margin-left: -10px; // PP
 }
 
-.step {
+.slider {
   margin-top: 25px;
 
   @include tablet {

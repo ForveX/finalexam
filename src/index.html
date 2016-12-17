@@ -34,9 +34,9 @@
     </div>
 </header>
 <div class="wrapper">
-    <div class="step">
-        <h2 class="region__title">How Urlaubsglück works?</h2>
-        <div class="slider">
+    <div class="slider">
+        <h2 class="slider__section__name">How Urlaubsglück works?</h2>
+        <div class="slider__group">
             {% include "components/slick-slider-01/slider.html" with {'slider': slider1} %}
             {% include "components/slick-slider-01/slider.html" with {'slider': slider2} %}
             {% include "components/slick-slider-01/slider.html" with {'slider': slider3} %}
@@ -44,16 +44,16 @@
         <div class="pixabay_widget" data-user="stevepb" data-max-rows="1" data-row-height="180" data-branding="false" data-navpos="top"></div>
     </div>
     <div class="people-wrapper">
-        <h2 class="region__title">Meet a partner for your best holiday</h2>
+        <h2 class="slider__section__name">Meet a partner for your best holiday</h2>
         {% include "components/people-01/people.html" %}
         <a href="" class="goto goto--people">See other partners</a>
     </div>
     <div class="pic">
-        <h2 class="region__title">Discover holiday activity ideas</h2>
+        <h2 class="slider__section__name">Discover holiday activity ideas</h2>
         {% include "components/masonry-01/masonry.html" %}
     </div>
     <div class="search">
-        <h2 class="region__title">Discover holiday activity ideas</h2>
+        <h2 class="slider__section__name">Discover holiday activity ideas</h2>
         <div class="search__subtitle">Hi! What are your holiday interests?</div>
             <div class="search__form">
                 <input type="text" id="search__box" placeholder="Enter your interests">
